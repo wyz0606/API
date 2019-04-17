@@ -10,7 +10,7 @@ function changeBackgroundImage(){
   			},
   			success: function(data){
   				var imgurl = data.urls.full
-  				$('#bg').attr("src", imgurl);
+  				$("#back").attr("src", imgurl);
   			}
 	})
 }
@@ -21,10 +21,11 @@ function init(){
 	console.log("init success");
 	$("#switch").click(function(){
 		changeBackgroundImage();
+		console.log("success");
 	});
 }
 
 $(document).ready(function(){
-	console.log("success");
+	
 	init();
 });

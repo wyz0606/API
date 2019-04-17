@@ -7,23 +7,19 @@ body,html, .main{
 #back{
 	position: absolute;
 	display: block;
-	min-width: 100%;
-	min-height: 100vh;
-	z-index: -1;
-	background-color: white;
+	width: 60%;
+	left: 20%;
 }
 
 
 
 #switch{
-	position: absolute;
+	position: fixed;
 	/*z-index: 1;*/
 	display: block;
 	left: 50%;
-	bottom: 90px;
-	transform: translate(-50%);
-	margin-top: 50px;
-	/*margin: 50px auto 0px;*/
+	bottom: 50px;
+	transform: translate(-50%, -50%);
 	font-size: 24px;
 	text-align: center;
 	background-color: #ff9966;
